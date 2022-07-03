@@ -12,7 +12,7 @@ public class CommandSpawn implements CommandExecutor {
 
         if(sender instanceof Player){
             Player player = (Player) sender;
-            Location spawn = new Location(player.getWorld(), -551.500, 91, -967.500, 0.4f, -2.9f); //replay the coordinates with your spawn location :)
+            Location spawn = new Location(player.getWorld(), -551.500, 91, -967.500, 0.4f, -2.9f); //replace the coordinates with your spawn location :)
             player.sendMessage("Spawn tp succesfull");
             player.teleport(spawn);
         }
